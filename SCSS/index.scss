@@ -1,8 +1,8 @@
 @import "__utility.scss";
 .ul__google__buttons {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: var(--c);
+	align-items: var(--c);
 }
 .google__buttons {
 	margin: 2rem 1rem 3rem 1rem;
@@ -48,15 +48,15 @@ nav {
 }
 .google {
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	align-items: var(--c);
+	justify-content: var(--c);
 	flex-direction: column;
 	height: 70vh;
 }
 .ul {
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	align-items: var(--c);
+	justify-content: var(--c);
 }
 .menu__icon_img {
 	width: 1.5rem;
@@ -100,8 +100,8 @@ footer {
 	height: 15vh;
 	.footer__ul {
 		display: flex;
-		align-items: center;
-		justify-content: center;
+		align-items: var(--c);
+		justify-content: var(--c);
 		padding: 1rem;
 		li {
 			a {
